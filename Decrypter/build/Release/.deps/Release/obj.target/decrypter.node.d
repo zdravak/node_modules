@@ -1,0 +1,1 @@
+cmd_Release/obj.target/decrypter.node := flock ./Release/linker.lock g++ -shared -pthread -rdynamic -m64  -Wl,-soname=decrypter.node -o Release/obj.target/decrypter.node -Wl,--start-group Release/obj.target/decrypter/decrypter.o -Wl,--end-group 

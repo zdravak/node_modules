@@ -1,0 +1,20 @@
+{
+   "name": "decrypter",
+   "version": "1.0.3",
+   "main": "runDecrypter.js",
+   "description": "AES decrypt module",
+   "gypfile": true,
+   "keywords": [
+       "c++",
+       "aes",
+       "decrypt"
+   ],
+   "author": {
+       "name": "Zdravko Krpic",
+       "email": "zdravko.krpic@etfos.hr"
+   }, 
+   "engines": {
+       "node": ">=0.2.0"
+   },
+   "scripts": { "decrypting" : "node runDecrypter.js" }
+}

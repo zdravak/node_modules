@@ -1,0 +1,1 @@
+cmd_Release/encrypter.node := ln -f "Release/obj.target/encrypter.node" "Release/encrypter.node" 2>/dev/null || (rm -rf "Release/encrypter.node" && cp -af "Release/obj.target/encrypter.node" "Release/encrypter.node")
