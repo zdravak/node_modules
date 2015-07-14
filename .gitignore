@@ -38,8 +38,6 @@ $RECYCLE.BIN/
 # Directories potentially created on remote AFP share
 .AppleDB
 .AppleDesktop
-Decrypter/build
-Encrypter/build
 Network Trash Folder
 Temporary Items
 .apdisk
